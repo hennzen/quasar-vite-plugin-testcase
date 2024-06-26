@@ -1,5 +1,6 @@
 import { h } from 'vue'
-import { QSelect, QIcon } from 'quasar'
+import { QIcon } from 'quasar'
+import { QSelect } from '../../node_modules/quasar/src/components/select'
 
 const CLS = { class: 'ui-tab' }
 
