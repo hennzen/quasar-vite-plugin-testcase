@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import { Quasar } from 'quasar'
 
+import QSelectWrapper from './components/QSelectWrapper'
+
 // Import icon libraries
 import '@quasar/extras/roboto-font/roboto-font.css'
 import '@quasar/extras/material-icons/material-icons.css'
@@ -15,6 +17,8 @@ import './style.css'
 import App from './App.vue'
 
 const myApp = createApp(App)
+
+myApp.component('MySelect', QSelectWrapper)
 
 myApp.use(Quasar, {
   plugins: {}, // import Quasar plugins and add here

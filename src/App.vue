@@ -1,5 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import MyTestCase from './components/MyTestCase.vue'
 </script>
 
 <template>
@@ -12,7 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
-  <q-btn filled color="primary" label="YAWP!"></q-btn>
+  <MyTestCase />
 </template>
 
 <style scoped>
