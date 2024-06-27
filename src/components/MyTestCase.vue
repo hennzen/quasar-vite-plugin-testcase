@@ -15,10 +15,11 @@ export default {
 </script>
 
 <template>
-	<q-btn filled color="primary" label="YAWP!"></q-btn>
+	<q-btn filled color="primary" no-caps label="YAWP! MyTestCase"></q-btn>
 	<div class="q-pa-md">
+		<p>Normal QSelect</p>
 		<q-select
-			q-mt-xl
+			class="q-mb-md"
 			filled
 			v-model="modelMultiple"
 			multiple
@@ -27,8 +28,9 @@ export default {
 			stack-label
 			label="Multiple selection"
 		/>
+		<p>Wrapped QSelect "MySelect"</p>
 		<MySelect
-			q-mt-xl
+		    class="q-mb-md"
 			v-model="modelMultiple"
 			multiple
 			:options="options"

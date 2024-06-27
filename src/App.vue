@@ -13,6 +13,7 @@ import MyTestCase from './components/MyTestCase.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <q-separator class="q-ma-xl" />
   <MyTestCase />
 </template>
 
