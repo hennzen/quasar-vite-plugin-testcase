@@ -26,7 +26,7 @@ import { QSelect } from '../../node_modules/quasar/src/components/select'
 We use Quasar's [Vite plugin flavour](https://quasar.dev/start/vite-plugin#creating-a-vite-project), so the setup steps were as follows:
 
 ```bash
-npm init vite my-vue-app -- --template vue
+npm init vite quasar-vite-plugin-testcase -- --template vue
 cd my-vue-app
 npm install --save quasar @quasar/extras
 npm install --save-dev @quasar/vite-plugin sass@^1.33.0
